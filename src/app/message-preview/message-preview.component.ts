@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class MessagePreviewComponent implements OnInit {
 
-  @Input() message = {};
+  @Input() message = {name:"", message:""};
 
   constructor() { }
 
