@@ -19,6 +19,7 @@
                         <td>{{order.orderDate}}</td>
                         <td>{{order.orderTime}}</td>
                         <td *ngIf="order.amount > 1000" style="color: red">{{order.amount}}</td>
+                        <td *ngIf="order.amount <= 1000" style="color: green">{{order.amount}}</td>
                     </tr>
                 </tbody>
             </table>
